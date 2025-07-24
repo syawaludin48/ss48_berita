@@ -1,0 +1,182 @@
+<?php
+
+namespace Modules\ManageMenu\Controllers;
+
+use App\Controllers\BaseController;
+use Modules\ManageMenu\Models\ModelMenu;
+use CodeIgniter\I18n\Time;
+
+class DataMenu extends BaseController
+{
+	protected $session;
+	protected $ModelMenu;
+
+	public function __construct(){
+		$this->session = service('session');
+
+		$this->ModelMenu = new ModelMenu();
+
+	}
+
+	public function menu()
+	{		
+		$group_menu_ = $this->ModelMenu->get_group_menu();
+		$menu = $this->ModelMenu->get_menu();
+
+		$data = [
+			'seg' => $this->request->uri->getSegments(),
+			'pretitle' => 'Tabel Data',
+			'title' => 'Data Menu Webiste',
+			'menu' => $menu,
+			'group_menu_select' => $group_menu_,
+		];
+		
+		return view('Modules\ManageMenu\Views\menu',$data);
+	}
+
+	public function menu_save()
+	{
+		 
+		$rules = [
+			'name' => [
+				'rules'  => 'required|is_unique[menu.nama_menu]',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+					'is_unique' => '<b>{field}</b> <b>{value}</b> sudah terdaftar !!!'
+				]
+			],
+			'link' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+				]
+			],
+			'id_group' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di pilih !!!',
+				]
+			],
+			'status' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+				]
+			],
+			'manage' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+				]
+			],
+			'nomor' => [
+				'rules'  => 'required|alpha',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+					'alpha' 	=> '<b>{field}</b> harus karakter / alfabet !!!'
+				]
+			],
+		];
+
+		if (! $this->validate($rules))
+		{
+			$this->session->setFlashdata('KetForm', 'tambah');
+			return redirect()->back()->withInput()->with('errors', service('validation')->getErrors());
+		}
+
+        $nama_menu		= filterdata($this->request->getPost('name'));
+		$slug_menu    	= url_title(strtolower($nama_menu));
+        $link		= filterdata($this->request->getPost('link'));
+        $id_group		= filterdata($this->request->getPost('id_group'));
+        $manage		= filterdata($this->request->getPost('manage'));
+        $status		= filterdata($this->request->getPost('status'));
+        $no_urut		= filterdata($this->request->getPost('nomor'));
+
+		$this->ModelMenu->save_menu($nama_menu,$slug_menu,$link,$status,$no_urut,$id_group,$manage);
+		
+		$this->session->setFlashdata('sukses', 'Melakukan Tambah Data Menu !' );
+		return redirect()->to('/manage-menu'); 
+
+	}
+
+	public function menu_update()
+	{
+		 
+        $id_rand		= filterdata($this->request->getPost('random'));
+		
+		$rules = [
+			'name' => [
+				'rules'  => 'required|is_unique[menu.nama_menu,random,{random}]',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+					'is_unique' => '<b>{field}</b> <b>{value}</b> sudah terdaftar !!!'
+				]
+			],
+			'link' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+				]
+			],
+			'id_group' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di pilih !!!',
+				]
+			],
+			'status' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+				]
+			],
+			'manage' => [
+				'rules'  => 'required',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+				]
+			],
+			'nomor' => [
+				'rules'  => 'required|alpha',
+				'errors' => [
+					'required'  => '<b>{field}</b> harus di isi !!!',
+					'alpha' 	=> '<b>{field}</b> harus karakter / alfabet !!!'
+				]
+			],
+		];
+
+		if (! $this->validate($rules))
+		{
+			$this->session->setFlashdata('KetForm', 'edit'.$id_rand);
+			return redirect()->back()->withInput()->with('errors', service('validation')->getErrors());
+		}
+
+        $nama_menu		= filterdata($this->request->getPost('name'));
+		$slug_menu    	= url_title(strtolower($nama_menu));
+        $link		= filterdata($this->request->getPost('link'));
+        $id_group		= filterdata($this->request->getPost('id_group'));
+        $manage		= filterdata($this->request->getPost('manage'));
+        $status		= filterdata($this->request->getPost('status'));
+        $no_urut		= filterdata($this->request->getPost('nomor'));
+		
+		$this->ModelMenu->edit_menu($id_rand,$nama_menu,$slug_menu,$link,$status,$no_urut,$id_group,$manage);
+		
+		$this->session->setFlashdata('sukses', 'Melakukan Edit Data Menu !' );
+		return redirect()->to('/manage-menu'); 
+
+	}
+
+	
+	public function menu_delete()
+	{
+		 
+        $id_rand	= filterdata($this->request->getPost('random'));
+
+		$this->ModelMenu->delete_menu($id_rand);
+		
+		$this->session->setFlashdata('sukses', 'Melakukan Delete Data Menu !' );
+		return redirect()->to('/manage-menu'); 
+
+	}
+	
+}

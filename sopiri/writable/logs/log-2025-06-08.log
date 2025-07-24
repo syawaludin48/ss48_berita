@@ -1,0 +1,759 @@
+ERROR - 2025-06-08 00:54:07 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 00:54:07 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 01:31:19 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 01:31:19 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 01:49:21 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 01:49:21 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 01:53:10 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 01:53:10 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 02:07:05 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 02:07:05 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 02:11:32 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 02:11:32 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 02:32:26 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 02:32:26 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 02:53:38 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 02:53:38 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 02:53:39 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 02:53:39 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 04:02:18 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 04:02:18 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 05:46:31 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 05:46:31 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 06:27:46 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 06:27:46 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 06:29:46 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 06:29:46 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 06:46:07 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 06:46:07 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 06:50:10 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 06:50:10 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 06:52:28 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 06:52:28 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 07:57:04 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 07:57:04 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 08:21:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 08:21:17 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 08:25:41 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 08:25:41 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 09:11:54 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 09:11:54 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 10:23:43 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 10:23:43 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 10:34:00 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 10:34:00 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 10:38:29 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 10:38:29 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 10:52:22 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 10:52:22 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 11:28:38 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 11:28:38 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 11:28:57 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 11:28:57 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 11:52:39 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 11:52:39 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 12:12:35 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 12:12:35 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 12:49:03 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 12:49:03 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 13:03:24 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 13:03:24 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 13:29:49 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 13:29:49 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 13:57:30 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 13:57:30 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 13:59:41 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 13:59:41 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 14:07:51 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 14:07:51 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 14:27:42 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 14:27:42 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 14:28:57 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 14:28:57 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 14:30:50 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 14:30:50 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 14:44:09 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 14:44:09 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 14:57:26 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 14:57:26 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 15:05:49 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 15:05:49 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 15:32:45 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 15:32:45 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 15:36:43 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 15:36:43 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 15:38:29 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 15:38:29 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 16:47:15 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 16:47:15 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 17:55:49 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 17:55:49 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:03:01 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:03:01 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:15:06 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:15:06 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:15:06 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:15:06 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:15:16 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:15:16 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:27:59 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:27:59 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:30:25 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:30:25 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:36:38 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:36:38 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:46:40 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:46:40 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 18:59:48 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 18:59:48 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 19:16:42 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 19:16:42 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 20:18:08 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 20:18:08 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 21:03:57 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 21:03:57 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 21:55:35 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 21:55:35 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 21:57:46 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 21:57:46 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 21:57:48 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 21:57:48 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 22:04:59 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 22:04:59 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 22:07:19 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 22:07:19 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 22:21:24 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 22:21:24 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 22:33:22 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 22:33:22 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 23:17:10 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 23:17:10 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 23:22:51 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 23:22:51 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 23:31:25 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 23:31:25 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 23:48:31 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 23:48:31 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-06-08 23:52:18 --> Error connecting to the database: Connection refused
+CRITICAL - 2025-06-08 23:52:18 --> Unable to connect to the database.
+#0 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sopiri/htdocs/sopiri.com/sopiri/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#4 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/sopiri/htdocs/sopiri.com/sopiri/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/sopiri/htdocs/sopiri.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
